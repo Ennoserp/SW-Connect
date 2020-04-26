@@ -1,3 +1,9 @@
-* {
+.about {
     margin-left: 30%;
+    margin-right: 30%;
+}
+
+img {
+    width: 70%;
+    min-width: 600px;
 }
