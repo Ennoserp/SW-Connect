@@ -1,0 +1,31 @@
+h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.particuliers {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "a b"
+                         "a b";
+}
+
+.liste-dons {
+    width: 80%;
+    margin-left: 10%;
+    grid-area: a;
+}
+
+.map-region {
+    right: 0;
+    grid-area: b;
+}
+
+img {
+    width: 80%;
+}
+
+.form-group {
+    width: 250px;
+}

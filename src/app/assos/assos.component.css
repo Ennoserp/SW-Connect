@@ -1,0 +1,26 @@
+.assos {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 500px 50px;
+    grid-template-areas: "a a b";
+}
+
+h3, h5 {
+    text-align: center;
+    margin: 30px;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+    grid-area: a;
+}
+
+.map-region {
+    right: 0;
+    grid-area: b;
+}
+
+.new-demande {
+    margin-left: 20%;
+}

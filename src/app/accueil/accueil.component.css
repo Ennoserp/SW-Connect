@@ -1,0 +1,14 @@
+h2, h3, h4, h5 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    font-size: 2em;
+    width: 350px;
+}
+
+.accueil {
+    text-align: center;
+}
+
